@@ -1,0 +1,575 @@
+01:30:33.967 [main] INFO  - Started Execution for Test Suite=> Amazon_Sanity_Suite with tag => sanity
+01:30:33.986 [main] INFO  - Started Execution for Test Name=> Amazon_SignInPage_Sanity_Test
+01:31:48.398 [main] INFO  - Started Execution for Test Suite=> Amazon_Sanity_Suite with tag => sanity
+01:31:48.412 [main] INFO  - Started Execution for Test Name=> Amazon_SignInPage_Sanity_Test
+01:31:54.817 [main] INFO  - *********Starting Test********SignInPageTest isLogoPresent
+01:31:54.991 [main] INFO  - **********Test Passed********SignInPageTest isLogoPresent
+01:32:02.051 [main] INFO  - *********Starting Test********SignInPageTest pageTitleTest
+01:32:02.064 [main] INFO  - **********Test Passed********SignInPageTest pageTitleTest
+01:32:09.259 [main] INFO  - *********Starting Test********SignInPageTest signInWithInValidEmailIdTest
+01:32:09.458 [main] INFO  - Entered pwd abcd
+01:32:09.663 [main] INFO  - click on [[ChromeDriver: chrome on windows (b25c5aa5c56e6be90f370e356aa32488)] -> xpath: //input[@id='continue']]
+01:32:09.974 [main] INFO  - **********Test Passed********SignInPageTest signInWithInValidEmailIdTest
+01:32:16.389 [main] INFO  - *********Starting Test********SignInPageTest signInWithValidCredentialsTest
+01:32:16.574 [main] INFO  - Entered pwd abcd@test.com
+01:33:17.995 [main] INFO  - click on Proxy element for: DefaultElementLocator 'By.xpath: //input[@id='continue']'
+01:33:18.055 [main] INFO  - Entered pwd abcd
+01:34:18.400 [main] INFO  - click on Proxy element for: DefaultElementLocator 'By.id: signInSubmit'
+01:34:18.408 [main] INFO  - **********Test Passed********SignInPageTest signInWithValidCredentialsTest
+01:34:18.957 [main] INFO  - Started Execution for Test Name=> Amazon_RegistrationPage_Sanity_Test
+01:34:29.465 [main] INFO  - *********Starting Test********RegistrationPageTest createBusinessAccountTest
+01:34:29.659 [main] INFO  - click on [[ChromeDriver: chrome on windows (43cf9a65c52cf9517d5c19823d1746cd)] -> xpath: //h1[contains(text(),'Create Account')]]
+01:34:29.666 [main] INFO  - **********Test Passed********RegistrationPageTest createBusinessAccountTest
+01:34:41.184 [main] INFO  - *********Starting Test********RegistrationPageTest isLogoPresent
+01:34:41.251 [main] INFO  - **********Test Passed********RegistrationPageTest isLogoPresent
+01:34:52.963 [main] INFO  - *********Starting Test********RegistrationPageTest verifyMobileNumberTest
+01:34:53.170 [main] INFO  - Entered Name priyanka
+01:34:53.326 [main] INFO  - Entered Name 000000000
+01:34:53.771 [main] INFO  - Entered pwd abcd@test
+01:34:54.998 [main] ERROR - Failed to click [[ChromeDriver: chrome on windows (ce827d465d70abad9ef05e62ef7974f8)] -> xpath: //span[contains(text(),'Verify mobile number')]]org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span id="auth-continue-announce" class="a-button-text" aria-hidden="true">...</span> is not clickable at point (759, 454). Other element would receive the click: <input id="continue" aria-describedby="legalTextRow" class="a-button-input" type="submit" aria-labelledby="auth-continue-announce">
+  (Session info: chrome=130.0.6723.117)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ce827d465d70abad9ef05e62ef7974f8, clickElement {id=f.975CB85DF12B74A3D01A27B6AEA952F6.d.CDDFF8237734AC9D69C653C5F74CA7E7.e.142}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.91 (53ac07678369..., userDataDir: C:\Users\Priyanka\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64761}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64761/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ce827d465d70abad9ef05e62ef7974f8)] -> xpath: //span[contains(text(),'Verify mobile number')]]
+Session ID: ce827d465d70abad9ef05e62ef7974f8
+01:34:55.007 [main] ERROR - expected [Authentication required] but found [Amazon Registration]
+01:35:06.228 [main] INFO  - *********Starting Test********RegistrationPageTest verifyMobileNumberTest
+01:35:06.560 [main] INFO  - Entered Name priyanka
+01:35:06.929 [main] INFO  - Entered Name 000000000
+01:35:07.085 [main] INFO  - Entered pwd abcd@test
+01:35:08.313 [main] ERROR - Failed to click [[ChromeDriver: chrome on windows (a0e1b7dd266f764f84ec14f14b971b8f)] -> xpath: //span[contains(text(),'Verify mobile number')]]org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span id="auth-continue-announce" class="a-button-text" aria-hidden="true">...</span> is not clickable at point (759, 454). Other element would receive the click: <input id="continue" aria-describedby="legalTextRow" class="a-button-input" type="submit" aria-labelledby="auth-continue-announce">
+  (Session info: chrome=130.0.6723.117)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a0e1b7dd266f764f84ec14f14b971b8f, clickElement {id=f.48D76E217308F6467D7A51064BE070DE.d.1607D39EDCD5D6B1E03EBFDBE4775C04.e.137}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.91 (53ac07678369..., userDataDir: C:\Users\Priyanka\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65040}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65040/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a0e1b7dd266f764f84ec14f14b971b8f)] -> xpath: //span[contains(text(),'Verify mobile number')]]
+Session ID: a0e1b7dd266f764f84ec14f14b971b8f
+01:35:08.323 [main] ERROR - expected [Authentication required] but found [Amazon Registration]
+01:35:20.316 [main] INFO  - *********Starting Test********RegistrationPageTest verifyMobileNumberTest
+01:35:20.460 [main] INFO  - Entered Name priyanka
+01:35:20.689 [main] INFO  - Entered Name 000000000
+01:35:21.077 [main] INFO  - Entered pwd abcd@test
+01:35:22.206 [main] ERROR - Failed to click [[ChromeDriver: chrome on windows (5a11fca80a80d82997330e1a0baf1696)] -> xpath: //span[contains(text(),'Verify mobile number')]]org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span id="auth-continue-announce" class="a-button-text" aria-hidden="true">...</span> is not clickable at point (759, 454). Other element would receive the click: <input id="continue" aria-describedby="legalTextRow" class="a-button-input" type="submit" aria-labelledby="auth-continue-announce">
+  (Session info: chrome=130.0.6723.117)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5a11fca80a80d82997330e1a0baf1696, clickElement {id=f.E3E466754AE2B0F4BD8A83EE99F5F36A.d.B9BF0533598E249905601E3BEAFD21E2.e.169}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.91 (53ac07678369..., userDataDir: C:\Users\Priyanka\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65161}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65161/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5a11fca80a80d82997330e1a0baf1696)] -> xpath: //span[contains(text(),'Verify mobile number')]]
+Session ID: 5a11fca80a80d82997330e1a0baf1696
+01:35:22.206 [main] ERROR - expected [Authentication required] but found [Amazon Registration]
+01:35:22.206 [main] INFO  - **********Test Failed********RegistrationPageTest verifyMobileNumberTest
+=01:41:58.783 [main] INFO  - Started Execution for Test Suite=> Amazon_Sanity_Suite with tag => sanity
+=01:41:58.801 [main] INFO  - Started Execution for Test Name=> Amazon_SignInPage_Sanity_Test
+=01:42:36.521 [main] INFO  - Started Execution for Test Suite=> Amazon_Sanity_Suite with tag => sanity
+=01:42:36.542 [main] INFO  - Started Execution for Test Name=> Amazon_SignInPage_Sanity_Test
+=01:42:43.828 [main] INFO  - *********Starting Test********SignInPageTest isLogoPresent
+=01:42:44.335 [main] INFO  - **********Test Passed********SignInPageTest isLogoPresent
+=01:42:53.832 [main] INFO  - *********Starting Test********SignInPageTest pageTitleTest
+=01:42:53.999 [main] INFO  - **********Test Passed********SignInPageTest pageTitleTest
+=01:43:00.532 [main] INFO  - *********Starting Test********SignInPageTest signInWithInValidEmailIdTest
+=01:43:00.762 [main] INFO  - Entered pwd abcd
+=01:43:01.201 [main] INFO  - click on [[ChromeDriver: chrome on windows (f5db135fde485bd5025aa7abb84e2aaf)] -> xpath: //input[@id='continue']]
+=01:43:01.271 [main] INFO  - **********Test Passed********SignInPageTest signInWithInValidEmailIdTest
+=01:43:08.043 [main] INFO  - *********Starting Test********SignInPageTest signInWithValidCredentialsTest
+=01:43:08.313 [main] INFO  - Entered pwd abcd@test.com
+=01:44:09.660 [main] INFO  - click on Proxy element for: DefaultElementLocator 'By.xpath: //input[@id='continue']'
+=01:44:09.755 [main] INFO  - Entered pwd abcd
+=01:45:11.696 [main] INFO  - click on Proxy element for: DefaultElementLocator 'By.id: signInSubmit'
+=01:45:11.704 [main] INFO  - **********Test Passed********SignInPageTest signInWithValidCredentialsTest
+=01:45:13.105 [main] INFO  - Started Execution for Test Name=> Amazon_RegistrationPage_Sanity_Test
+=01:45:25.645 [main] INFO  - *********Starting Test********RegistrationPageTest createBusinessAccountTest
+=01:45:25.813 [main] INFO  - click on [[ChromeDriver: chrome on windows (76d9bd397305e57bdc6047b09b062989)] -> xpath: //h1[contains(text(),'Create Account')]]
+=01:45:25.819 [main] INFO  - **********Test Passed********RegistrationPageTest createBusinessAccountTest
+=01:45:37.487 [main] INFO  - *********Starting Test********RegistrationPageTest isLogoPresent
+=01:45:37.589 [main] INFO  - **********Test Passed********RegistrationPageTest isLogoPresent
+=01:45:49.428 [main] INFO  - *********Starting Test********RegistrationPageTest verifyMobileNumberTest
+=01:45:49.807 [main] INFO  - Entered Name priyanka
+=01:45:50.126 [main] INFO  - Entered Name 000000000
+=01:45:50.278 [main] INFO  - Entered pwd abcd@test
+=01:45:51.464 [main] ERROR - Failed to click [[ChromeDriver: chrome on windows (7ab6111138142fa0f25cdadb6659517a)] -> xpath: //span[contains(text(),'Verify mobile number')]]org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span id="auth-continue-announce" class="a-button-text" aria-hidden="true">...</span> is not clickable at point (759, 454). Other element would receive the click: <input id="continue" aria-describedby="legalTextRow" class="a-button-input" type="submit" aria-labelledby="auth-continue-announce">
+  (Session info: chrome=130.0.6723.117)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7ab6111138142fa0f25cdadb6659517a, clickElement {id=f.67DDF69B1BE947A21168719183619DB2.d.A94467BD04CE850FD54495431063B910.e.151}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.91 (53ac07678369..., userDataDir: C:\Users\Priyanka\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49926}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49926/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7ab6111138142fa0f25cdadb6659517a)] -> xpath: //span[contains(text(),'Verify mobile number')]]
+Session ID: 7ab6111138142fa0f25cdadb6659517a
+=01:45:51.477 [main] INFO  - **********Test Passed********RegistrationPageTest verifyMobileNumberTest
+=02:06:31.204 [main] INFO  - Started Execution for Test Suite=> Default suite with tag => 
+=02:06:31.223 [main] INFO  - Started Execution for Test Name=> Default test
+=02:06:58.178 [main] INFO  - Entered Name priyanka
+=02:06:58.405 [main] INFO  - Entered Name 000000000
+=02:06:58.639 [main] INFO  - Entered pwd abcd@test
+=02:06:59.921 [main] ERROR - Failed to click [[ChromeDriver: chrome on windows (e50a41f1338877dd3280d9ffa5e91050)] -> xpath: //span[contains(text(),'Verify mobile number')]]org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span id="auth-continue-announce" class="a-button-text" aria-hidden="true">...</span> is not clickable at point (759, 454). Other element would receive the click: <input id="continue" aria-describedby="legalTextRow" class="a-button-input" type="submit" aria-labelledby="auth-continue-announce">
+  (Session info: chrome=130.0.6723.117)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e50a41f1338877dd3280d9ffa5e91050, clickElement {id=f.FB6C825592E1F737A1A8D94EC7D9D1BC.d.27C06F03E5758D434C7ADFA41AA71F8E.e.147}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.91 (53ac07678369..., userDataDir: C:\Users\Priyanka\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50194}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50194/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e50a41f1338877dd3280d9ffa5e91050)] -> xpath: //span[contains(text(),'Verify mobile number')]]
+Session ID: e50a41f1338877dd3280d9ffa5e91050
+=02:08:28.508 [main] INFO  - Started Execution for Test Suite=> Default suite with tag => 
+=02:08:28.528 [main] INFO  - Started Execution for Test Name=> Default test
+=02:08:44.703 [main] INFO  - Entered Name priyanka
+=02:08:45.127 [main] INFO  - Entered Name 000000000
+=02:08:45.339 [main] INFO  - Entered pwd abcd@test
+=02:08:46.641 [main] ERROR - Failed to click [[ChromeDriver: chrome on windows (2936243754279b09159820e49d412200)] -> xpath: //span[contains(text(),'Verify mobile number')]]org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span id="auth-continue-announce" class="a-button-text" aria-hidden="true">...</span> is not clickable at point (759, 454). Other element would receive the click: <input id="continue" aria-describedby="legalTextRow" class="a-button-input" type="submit" aria-labelledby="auth-continue-announce">
+  (Session info: chrome=130.0.6723.117)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2936243754279b09159820e49d412200, clickElement {id=f.536B178B5799B7159D836A4DADEE50FD.d.1E5708A75B3037AAD892AE2DCF986724.e.140}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.91 (53ac07678369..., userDataDir: C:\Users\Priyanka\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50330}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50330/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (2936243754279b09159820e49d412200)] -> xpath: //span[contains(text(),'Verify mobile number')]]
+Session ID: 2936243754279b09159820e49d412200
+=02:10:03.771 [main] INFO  - Started Execution for Test Suite=> Default suite with tag => 
+=02:10:03.787 [main] INFO  - Started Execution for Test Name=> Default test
+=02:10:17.564 [main] INFO  - Entered Name priyanka
+=02:10:17.983 [main] INFO  - Entered Name 000000000
+=02:10:18.148 [main] INFO  - Entered pwd abcd@test
+=02:10:24.575 [main] ERROR - Failed to click [[ChromeDriver: chrome on windows (f4c8b6e3145e4100d8471ceabe129980)] -> xpath: //span[contains(text(),'Verify mobile number')]]org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span id="auth-continue-announce" class="a-button-text" aria-hidden="true">...</span> is not clickable at point (759, 454). Other element would receive the click: <input id="continue" aria-describedby="legalTextRow" class="a-button-input" type="submit" aria-labelledby="auth-continue-announce">
+  (Session info: chrome=130.0.6723.117)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f4c8b6e3145e4100d8471ceabe129980, clickElement {id=f.9A5D5240713A0C73B8F43E5DEF666953.d.C468DB4FF9E566559CA69D011156E2C2.e.143}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.91 (53ac07678369..., userDataDir: C:\Users\Priyanka\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50457}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50457/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f4c8b6e3145e4100d8471ceabe129980)] -> xpath: //span[contains(text(),'Verify mobile number')]]
+Session ID: f4c8b6e3145e4100d8471ceabe129980
+=02:11:00.321 [main] INFO  - Started Execution for Test Suite=> Default suite with tag => 
+=02:11:00.347 [main] INFO  - Started Execution for Test Name=> Default test
+=02:12:38.027 [main] INFO  - Entered Name priyanka
+=02:12:38.375 [main] INFO  - Entered Name 000000000
+=02:12:38.729 [main] INFO  - Entered pwd abcd@test
+=02:12:51.680 [main] ERROR - Failed to click [[ChromeDriver: chrome on windows (1dea1b20d68f3f7a914e76911a330e0d)] -> xpath: //span[contains(text(),'Verify mobile number')]]org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span id="auth-continue-announce" class="a-button-text" aria-hidden="true">...</span> is not clickable at point (759, 454). Other element would receive the click: <input id="continue" aria-describedby="legalTextRow" class="a-button-input" type="submit" aria-labelledby="auth-continue-announce">
+  (Session info: chrome=130.0.6723.117)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1dea1b20d68f3f7a914e76911a330e0d, clickElement {id=f.C464DA54A0BA0757AD80A7E8020C1B11.d.67BF2294C51BF9D730F1E4E4DCB2CD36.e.503}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.91 (53ac07678369..., userDataDir: C:\Users\Priyanka\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50582}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50582/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (1dea1b20d68f3f7a914e76911a330e0d)] -> xpath: //span[contains(text(),'Verify mobile number')]]
+Session ID: 1dea1b20d68f3f7a914e76911a330e0d
+=02:26:59.065 [main] INFO  - Started Execution for Test Suite=> Amazon_Regression_Suite with tag => regression
+=02:26:59.079 [main] INFO  - Started Execution for Test Name=> Amazon_SignInPage_Regression_Test
+=02:27:02.831 [main] INFO  - Started Execution on Browser=> CHROME
+=02:27:08.894 [main] INFO  - *********Starting Test********SignInPageTest backAndForthScenarioTest
+=02:27:11.733 [main] INFO  - **********Test Passed********SignInPageTest backAndForthScenarioTest
+=02:27:12.498 [main] INFO  - Closing Execution on Browser=> CHROME
+=02:27:14.112 [main] INFO  - Started Execution on Browser=> CHROME
+=02:27:17.565 [main] INFO  - *********Starting Test********SignInPageTest fieldsOnThePageTest
+=02:27:17.593 [main] INFO  - **********Test Passed********SignInPageTest fieldsOnThePageTest
+=02:27:18.610 [main] INFO  - Closing Execution on Browser=> CHROME
+=02:27:20.380 [main] INFO  - Started Execution on Browser=> CHROME
+=02:27:24.011 [main] INFO  - *********Starting Test********SignInPageTest signInWithInValidEmailIdTest
+=02:27:24.188 [main] INFO  - Entered pwd abcd
+=02:27:24.360 [main] INFO  - click on [[ChromeDriver: chrome on windows (b90dfc17ea905791372ca6f57c4e31a2)] -> xpath: //input[@id='continue']]
+=02:27:24.653 [main] INFO  - **********Test Passed********SignInPageTest signInWithInValidEmailIdTest
+=02:27:25.208 [main] INFO  - Closing Execution on Browser=> CHROME
+=02:27:25.262 [main] INFO  - Started Execution for Test Name=> Amazon_RegistrationPage_Regression_Test
+=02:27:26.758 [main] INFO  - Started Execution on Browser=> CHROME
+=02:27:35.410 [main] INFO  - *********Starting Test********RegistrationPageTest fieldsOnThePageTest
+=02:27:37.209 [main] INFO  - **********Test Passed********RegistrationPageTest fieldsOnThePageTest
+=02:27:39.469 [main] INFO  - Closing Execution on Browser=> CHROME
+=02:27:42.420 [main] INFO  - Started Execution on Browser=> CHROME
+=02:27:51.140 [main] INFO  - *********Starting Test********RegistrationPageTest pageTitleTest
+=02:27:51.189 [main] ERROR - ERROR- Page title does not match Expected: Amazon Registration expected [Amazon Registration1] but found [Amazon Registration]
+=02:27:51.751 [main] INFO  - Closing Execution on Browser=> CHROME
+=02:27:53.430 [main] INFO  - Started Execution on Browser=> CHROME
+=02:28:03.007 [main] INFO  - *********Starting Test********RegistrationPageTest pageTitleTest
+=02:28:03.020 [main] ERROR - ERROR- Page title does not match Expected: Amazon Registration expected [Amazon Registration1] but found [Amazon Registration]
+=02:28:03.020 [main] INFO  - **********Test Failed********RegistrationPageTest pageTitleTest
+=02:28:04.884 [main] INFO  - Closing Execution on Browser=> CHROME
+=02:28:06.252 [main] INFO  - Started Execution on Browser=> CHROME
+=02:28:14.846 [main] INFO  - *********Starting Test********RegistrationPageTest signInLinkTest
+=02:28:14.846 [main] INFO  - **********Test Passed********RegistrationPageTest signInLinkTest
+=02:28:15.537 [main] INFO  - Closing Execution on Browser=> CHROME
+=21:07:27.080 [main] INFO  - Started Execution for Test Suite=> Amazon_Sanity_Suite with tag => sanity
+=21:07:27.441 [main] INFO  - Started Execution for Test Name=> Amazon_SignInPage_Sanity_Test
+=21:07:31.077 [main] INFO  - Started Execution on Browser=> CHROME
+=21:07:39.434 [main] INFO  - *********Starting Test********SignInPageTest isLogoPresent
+=21:07:39.468 [main] INFO  - **********Test Started********SignInPageTest isLogoPresent
+=21:07:40.202 [main] INFO  - **********Test Passed********SignInPageTest isLogoPresent
+=21:07:41.408 [main] INFO  - Closing Execution on Browser=> CHROME
+=21:07:42.991 [main] INFO  - Started Execution on Browser=> CHROME
+=21:07:47.631 [main] INFO  - *********Starting Test********SignInPageTest pageTitleTest
+=21:07:47.634 [main] INFO  - **********Test Started********SignInPageTest pageTitleTest
+=21:07:47.654 [main] INFO  - **********Test Passed********SignInPageTest pageTitleTest
+=21:07:48.528 [main] INFO  - Closing Execution on Browser=> CHROME
+=21:07:50.102 [main] INFO  - Started Execution on Browser=> CHROME
+=21:07:55.234 [main] INFO  - *********Starting Test********SignInPageTest signInWithInValidEmailIdTest
+=21:07:55.234 [main] INFO  - **********Test Started********SignInPageTest signInWithInValidEmailIdTest
+=21:07:55.588 [main] INFO  - Entered pwd abcd
+=21:07:55.804 [main] INFO  - click on [[ChromeDriver: chrome on windows (a740117d3ba67a189c170085304e53fb)] -> xpath: //input[@id='continue']]
+=21:07:55.850 [main] INFO  - **********Test Passed********SignInPageTest signInWithInValidEmailIdTest
+=21:07:56.341 [main] INFO  - Closing Execution on Browser=> CHROME
+=21:07:57.867 [main] INFO  - Started Execution on Browser=> CHROME
+=21:08:03.548 [main] INFO  - *********Starting Test********SignInPageTest signInWithValidCredentialsTest
+=21:08:03.550 [main] INFO  - **********Test Started********SignInPageTest signInWithValidCredentialsTest
+=21:08:03.801 [main] INFO  - Entered pwd abcd@test.com
+=21:09:05.585 [main] INFO  - click on Proxy element for: DefaultElementLocator 'By.xpath: //input[@id='continue']'
+=21:09:05.669 [main] INFO  - Entered pwd abcd
+=21:10:06.015 [main] INFO  - click on Proxy element for: DefaultElementLocator 'By.id: signInSubmit'
+=21:10:06.025 [main] INFO  - **********Test Passed********SignInPageTest signInWithValidCredentialsTest
+=21:10:06.626 [main] INFO  - Closing Execution on Browser=> CHROME
+=21:10:06.669 [main] INFO  - Started Execution for Test Name=> Amazon_RegistrationPage_Sanity_Test
+=21:10:08.478 [main] INFO  - Started Execution on Browser=> CHROME
+=21:10:18.366 [main] INFO  - *********Starting Test********RegistrationPageTest createBusinessAccountTest
+=21:10:18.366 [main] INFO  - **********Test Started********RegistrationPageTest createBusinessAccountTest
+=21:10:18.720 [main] INFO  - click on [[ChromeDriver: chrome on windows (65788582cca6de3daebaf07d42772acd)] -> xpath: //h1[contains(text(),'Create Account')]]
+=21:10:18.731 [main] INFO  - **********Test Passed********RegistrationPageTest createBusinessAccountTest
+=21:10:20.125 [main] INFO  - Closing Execution on Browser=> CHROME
+=21:10:21.782 [main] INFO  - Started Execution on Browser=> CHROME
+=21:10:31.949 [main] INFO  - *********Starting Test********RegistrationPageTest isLogoPresent
+=21:10:31.949 [main] INFO  - **********Test Started********RegistrationPageTest isLogoPresent
+=21:10:32.064 [main] INFO  - **********Test Passed********RegistrationPageTest isLogoPresent
+=21:10:33.401 [main] INFO  - Closing Execution on Browser=> CHROME
+=21:16:51.347 [main] INFO  - Started Execution for Test Suite=> Amazon_Sanity_Suite with tag => sanity
+=21:16:51.802 [main] INFO  - Started Execution for Test Name=> Amazon_SignInPage_Sanity_Test
+=21:16:55.543 [main] INFO  - Started Execution on Browser=> CHROME
+=21:17:01.665 [main] INFO  - *********Starting Test********SignInPageTest isLogoPresent
+=21:17:01.984 [main] INFO  - **********Test Started********SignInPageTest isLogoPresent
+=21:17:02.229 [main] INFO  - **********Test Passed********SignInPageTest isLogoPresent
+=21:17:03.828 [main] INFO  - Closing Execution on Browser=> CHROME
+=21:17:07.028 [main] INFO  - Started Execution on Browser=> CHROME
+=21:17:12.007 [main] INFO  - *********Starting Test********SignInPageTest pageTitleTest
+=21:17:12.020 [main] INFO  - **********Test Started********SignInPageTest pageTitleTest
+=21:17:12.069 [main] ERROR - ERROR- Page title does not match Expected: Amazon Registration expected [Amazon Sign In1] but found [Amazon Sign In]
+=21:17:12.069 [main] INFO  - **********Test Skipped********SignInPageTest pageTitleTest
+=21:17:12.822 [main] INFO  - Closing Execution on Browser=> CHROME
+=21:17:14.024 [main] INFO  - Started Execution on Browser=> CHROME
+=21:17:18.398 [main] INFO  - *********Starting Test********SignInPageTest pageTitleTest
+=21:17:18.399 [main] INFO  - **********Test Started********SignInPageTest pageTitleTest
+=21:17:18.519 [main] ERROR - ERROR- Page title does not match Expected: Amazon Registration expected [Amazon Sign In1] but found [Amazon Sign In]
+=21:17:18.519 [main] INFO  - **********Test Failed********SignInPageTest pageTitleTest
+=21:17:19.564 [main] INFO  - Closing Execution on Browser=> CHROME
+=21:17:20.719 [main] INFO  - Started Execution on Browser=> CHROME
+=21:17:25.269 [main] INFO  - *********Starting Test********SignInPageTest signInWithInValidEmailIdTest
+=21:17:25.273 [main] INFO  - **********Test Started********SignInPageTest signInWithInValidEmailIdTest
+=21:17:25.488 [main] INFO  - Entered pwd abcd
+=21:17:25.938 [main] INFO  - click on [[ChromeDriver: chrome on windows (9745480a8adfcc91ac4dd384eb304c69)] -> xpath: //input[@id='continue']]
+=21:17:25.982 [main] INFO  - **********Test Passed********SignInPageTest signInWithInValidEmailIdTest
+=21:17:26.369 [main] INFO  - Closing Execution on Browser=> CHROME
+=21:17:26.414 [main] INFO  - Started Execution for Test Name=> Amazon_RegistrationPage_Sanity_Test
+=21:17:27.603 [main] INFO  - Started Execution on Browser=> CHROME
+=21:17:37.103 [main] INFO  - *********Starting Test********RegistrationPageTest createBusinessAccountTest
+=21:17:37.109 [main] INFO  - **********Test Started********RegistrationPageTest createBusinessAccountTest
+=21:17:37.287 [main] INFO  - click on [[ChromeDriver: chrome on windows (9e334a339f641289efab939a42cc8af2)] -> xpath: //h1[contains(text(),'Create Account')]]
+=21:17:37.309 [main] INFO  - **********Test Passed********RegistrationPageTest createBusinessAccountTest
+=21:17:37.778 [main] INFO  - Closing Execution on Browser=> CHROME
+=21:17:39.129 [main] INFO  - Started Execution on Browser=> CHROME
+=21:17:48.522 [main] INFO  - *********Starting Test********RegistrationPageTest isLogoPresent
+=21:17:48.522 [main] INFO  - **********Test Started********RegistrationPageTest isLogoPresent
+=21:17:48.656 [main] INFO  - **********Test Passed********RegistrationPageTest isLogoPresent
+=21:17:49.487 [main] INFO  - Closing Execution on Browser=> CHROME
+=21:31:34.138 [main] INFO  - Started Execution for Test Suite=> Amazon_Sanity_Suite with tag => sanity
+=21:31:34.562 [main] INFO  - Started Execution for Test Name=> Amazon_SignInPage_Sanity_Test
+=21:31:46.799 [main] INFO  - Started Execution on Browser=> CHROME
+=21:31:53.004 [main] INFO  - *********Starting Test********SignInPageTest isLogoPresent
+=21:31:53.075 [main] INFO  - **********Test Started********SignInPageTest isLogoPresent
+=21:31:53.786 [main] INFO  - **********Test Passed********SignInPageTest isLogoPresent
+=21:31:54.879 [main] INFO  - Closing Execution on Browser=> CHROME
+=21:31:56.472 [main] INFO  - Started Execution on Browser=> CHROME
+=21:32:02.597 [main] INFO  - *********Starting Test********SignInPageTest pageTitleTest
+=21:32:02.598 [main] INFO  - **********Test Started********SignInPageTest pageTitleTest
+=21:32:02.666 [main] INFO  - **********Test Passed********SignInPageTest pageTitleTest
+=21:32:03.337 [main] INFO  - Closing Execution on Browser=> CHROME
+=21:32:04.696 [main] INFO  - Started Execution on Browser=> CHROME
+=21:32:09.350 [main] INFO  - *********Starting Test********SignInPageTest signInWithInValidEmailIdTest
+=21:32:09.351 [main] INFO  - **********Test Started********SignInPageTest signInWithInValidEmailIdTest
+=21:32:09.696 [main] INFO  - Entered pwd abcd
+=21:32:09.916 [main] INFO  - click on [[ChromeDriver: chrome on windows (820074bf9aa3a9cbcc04dc869c8c766d)] -> xpath: //input[@id='continue']]
+=21:32:09.958 [main] INFO  - **********Test Passed********SignInPageTest signInWithInValidEmailIdTest
+=21:32:10.538 [main] INFO  - Closing Execution on Browser=> CHROME
+=21:32:10.601 [main] INFO  - Started Execution for Test Name=> Amazon_RegistrationPage_Sanity_Test
+=21:32:11.792 [main] INFO  - Started Execution on Browser=> CHROME
+=23:53:41.428 [main] INFO  - Started Execution for Test Suite=> Amazon_Sanity_Suite with tag => sanity
+=23:53:41.711 [main] INFO  - Started Execution for Test Name=> Amazon_SignInPage_Sanity_Test
+=23:53:44.023 [main] INFO  - Started Execution on Browser=> CHROME
+=23:53:48.112 [main] INFO  - *********Starting Test********SignInPageTest isLogoPresent
+=23:53:48.139 [main] INFO  - **********Test Started********SignInPageTest isLogoPresent
+=23:53:48.233 [main] INFO  - **********Test Passed********SignInPageTest isLogoPresent
+=23:53:48.928 [main] INFO  - Closing Execution on Browser=> CHROME
+=23:53:50.294 [main] INFO  - Started Execution on Browser=> CHROME
+=23:53:53.752 [main] INFO  - *********Starting Test********SignInPageTest pageTitleTest
+=23:53:53.758 [main] INFO  - **********Test Started********SignInPageTest pageTitleTest
+=23:53:53.789 [main] INFO  - **********Test Passed********SignInPageTest pageTitleTest
+=23:53:54.590 [main] INFO  - Closing Execution on Browser=> CHROME
+=23:53:55.673 [main] INFO  - Started Execution on Browser=> CHROME
+=23:53:59.480 [main] INFO  - *********Starting Test********SignInPageTest signInWithInValidEmailIdTest
+=23:53:59.480 [main] INFO  - **********Test Started********SignInPageTest signInWithInValidEmailIdTest
+=23:53:59.624 [main] INFO  - Entered pwd abcd
+=23:53:59.774 [main] INFO  - click on [[ChromeDriver: chrome on windows (e0b272aa0d2f38d55a37f15149b94fa9)] -> xpath: //input[@id='continue']]
+=23:53:59.824 [main] INFO  - **********Test Passed********SignInPageTest signInWithInValidEmailIdTest
+=23:54:00.522 [main] INFO  - Closing Execution on Browser=> CHROME
+=23:54:00.571 [main] INFO  - Started Execution for Test Name=> Amazon_RegistrationPage_Sanity_Test
+=23:54:01.930 [main] INFO  - Started Execution on Browser=> CHROME
+=23:54:10.859 [main] INFO  - *********Starting Test********RegistrationPageTest createBusinessAccountTest
+=23:54:10.859 [main] INFO  - **********Test Started********RegistrationPageTest createBusinessAccountTest
+=23:54:11.027 [main] INFO  - click on [[ChromeDriver: chrome on windows (b93041700c9c60fe5ef34345c86622cc)] -> xpath: //h1[contains(text(),'Create Account')]]
+=23:54:11.048 [main] INFO  - **********Test Passed********RegistrationPageTest createBusinessAccountTest
+=23:54:13.333 [main] INFO  - Closing Execution on Browser=> CHROME
+=23:54:14.574 [main] INFO  - Started Execution on Browser=> CHROME
+=23:54:23.932 [main] INFO  - *********Starting Test********RegistrationPageTest isLogoPresent
+=23:54:23.941 [main] INFO  - **********Test Started********RegistrationPageTest isLogoPresent
+=23:54:24.224 [main] INFO  - **********Test Passed********RegistrationPageTest isLogoPresent
+=23:54:26.469 [main] INFO  - Closing Execution on Browser=> CHROME
+=00:06:16.500 [main] INFO  - Started Execution for Test Suite=> Amazon_Sanity_Suite with tag => sanity
+=00:06:16.770 [main] INFO  - Started Execution for Test Name=> Amazon_SignInPage_Sanity_Test
+=00:06:19.198 [main] INFO  - Started Execution on Browser=> CHROME
+=00:06:22.912 [main] INFO  - *********Starting Test********SignInPageTest isLogoPresent
+=00:06:22.924 [main] INFO  - **********Test Started********SignInPageTest isLogoPresent
+=00:06:22.981 [main] INFO  - **********Test Passed********SignInPageTest isLogoPresent
+=00:06:23.825 [main] INFO  - Closing Execution on Browser=> CHROME
+=00:06:24.852 [main] INFO  - Started Execution on Browser=> CHROME
+=00:06:28.584 [main] INFO  - *********Starting Test********SignInPageTest pageTitleTest
+=00:06:28.591 [main] INFO  - **********Test Started********SignInPageTest pageTitleTest
+=00:06:28.623 [main] INFO  - **********Test Passed********SignInPageTest pageTitleTest
+=00:06:29.328 [main] INFO  - Closing Execution on Browser=> CHROME
+=00:06:30.245 [main] INFO  - Started Execution on Browser=> CHROME
+=00:06:33.922 [main] INFO  - *********Starting Test********SignInPageTest signInWithInValidEmailIdTest
+=00:06:33.923 [main] INFO  - **********Test Started********SignInPageTest signInWithInValidEmailIdTest
+=00:06:34.169 [main] INFO  - Entered pwd abcd
+=00:06:34.594 [main] INFO  - click on [[ChromeDriver: chrome on windows (35594877c9e48486e182dd4da01ec3a1)] -> xpath: //input[@id='continue']]
+=00:06:34.663 [main] INFO  - **********Test Passed********SignInPageTest signInWithInValidEmailIdTest
+=00:06:35.981 [main] INFO  - Closing Execution on Browser=> CHROME
+=00:06:36.017 [main] INFO  - Started Execution for Test Name=> Amazon_RegistrationPage_Sanity_Test
+=00:06:36.968 [main] INFO  - Started Execution on Browser=> CHROME
+=00:06:45.405 [main] INFO  - *********Starting Test********RegistrationPageTest createBusinessAccountTest
+=00:06:45.410 [main] INFO  - **********Test Started********RegistrationPageTest createBusinessAccountTest
+=00:06:45.571 [main] INFO  - click on [[ChromeDriver: chrome on windows (cfba8af3dcd5133a07d0abb8e792bfc5)] -> xpath: //h1[contains(text(),'Create Account')]]
+=00:06:45.580 [main] INFO  - **********Test Passed********RegistrationPageTest createBusinessAccountTest
+=00:06:45.963 [main] INFO  - Closing Execution on Browser=> CHROME
+=00:06:46.984 [main] INFO  - Started Execution on Browser=> CHROME
+=00:06:56.186 [main] INFO  - *********Starting Test********RegistrationPageTest isLogoPresent
+=00:06:56.186 [main] INFO  - **********Test Started********RegistrationPageTest isLogoPresent
+=00:06:56.250 [main] INFO  - **********Test Passed********RegistrationPageTest isLogoPresent
+=00:06:56.712 [main] INFO  - Closing Execution on Browser=> CHROME
+=00:13:40.800 [main] INFO  - Started Execution for Test Suite=> Amazon_Sanity_Suite with tag => sanity
+=00:13:41.027 [main] INFO  - Started Execution for Test Name=> Amazon_SignInPage_Sanity_Test
+=00:13:42.570 [main] INFO  - Started Execution on Browser=> CHROME
+=00:13:47.360 [main] INFO  - *********Starting Test********SignInPageTest isLogoPresent
+=00:13:47.373 [main] INFO  - **********Test Started********SignInPageTest isLogoPresent
+=00:13:47.507 [main] INFO  - **********Test Passed********SignInPageTest isLogoPresent
+=00:13:47.968 [main] INFO  - Closing Execution on Browser=> CHROME
+=00:13:48.945 [main] INFO  - Started Execution on Browser=> CHROME
+=00:13:52.876 [main] INFO  - *********Starting Test********SignInPageTest pageTitleTest
+=00:13:52.878 [main] INFO  - **********Test Started********SignInPageTest pageTitleTest
+=00:13:52.890 [main] INFO  - **********Test Passed********SignInPageTest pageTitleTest
+=00:13:53.251 [main] INFO  - Closing Execution on Browser=> CHROME
+=00:13:54.403 [main] INFO  - Started Execution on Browser=> CHROME
+=00:13:58.530 [main] INFO  - *********Starting Test********SignInPageTest signInWithInValidEmailIdTest
+=00:13:58.530 [main] INFO  - **********Test Started********SignInPageTest signInWithInValidEmailIdTest
+=00:13:58.681 [main] INFO  - Entered pwd abcd
+=00:13:59.433 [main] INFO  - click on [[ChromeDriver: chrome on windows (29fcd6dd904d7e0783d62cdd040f891e)] -> xpath: //input[@id='continue']]
+=00:13:59.511 [main] INFO  - **********Test Passed********SignInPageTest signInWithInValidEmailIdTest
+=00:14:00.423 [main] INFO  - Closing Execution on Browser=> CHROME
+=00:14:00.505 [main] INFO  - Started Execution for Test Name=> Amazon_RegistrationPage_Sanity_Test
+=00:14:01.530 [main] INFO  - Started Execution on Browser=> CHROME
+=00:14:10.066 [main] INFO  - *********Starting Test********RegistrationPageTest createBusinessAccountTest
+=00:14:10.074 [main] INFO  - **********Test Started********RegistrationPageTest createBusinessAccountTest
+=00:14:10.263 [main] INFO  - click on [[ChromeDriver: chrome on windows (d070c3eeb6481b0ddaaeb9d2f69dc799)] -> xpath: //h1[contains(text(),'Create Account')]]
+=00:14:10.275 [main] INFO  - **********Test Passed********RegistrationPageTest createBusinessAccountTest
+=00:14:10.909 [main] INFO  - Closing Execution on Browser=> CHROME
+=00:14:12.044 [main] INFO  - Started Execution on Browser=> CHROME
+=00:14:20.363 [main] INFO  - *********Starting Test********RegistrationPageTest isLogoPresent
+=00:14:20.365 [main] INFO  - **********Test Started********RegistrationPageTest isLogoPresent
+=00:14:20.434 [main] INFO  - **********Test Passed********RegistrationPageTest isLogoPresent
+=00:14:20.996 [main] INFO  - Closing Execution on Browser=> CHROME
+=00:17:04.640 [main] INFO  - Started Execution for Test Suite=> Amazon_Sanity_Suite with tag => sanity
+=00:17:04.897 [main] INFO  - Started Execution for Test Name=> Amazon_SignInPage_Sanity_Test
+=00:17:06.724 [main] INFO  - Started Execution on Browser=> CHROME
+=00:17:11.496 [main] INFO  - *********Starting Test********SignInPageTest isLogoPresent
+=00:17:11.519 [main] INFO  - **********Test Started********SignInPageTest isLogoPresent
+=00:17:11.622 [main] INFO  - **********Test Passed********SignInPageTest isLogoPresent
+=00:17:12.165 [main] INFO  - Closing Execution on Browser=> CHROME
+=00:17:13.291 [main] INFO  - Started Execution on Browser=> CHROME
+=00:17:17.338 [main] INFO  - *********Starting Test********SignInPageTest pageTitleTest
+=00:17:17.340 [main] INFO  - **********Test Started********SignInPageTest pageTitleTest
+=00:17:17.435 [main] INFO  - **********Test Passed********SignInPageTest pageTitleTest
+=00:17:18.095 [main] INFO  - Closing Execution on Browser=> CHROME
+=00:17:19.184 [main] INFO  - Started Execution on Browser=> CHROME
+=00:17:22.775 [main] INFO  - *********Starting Test********SignInPageTest signInWithInValidEmailIdTest
+=00:17:22.775 [main] INFO  - **********Test Started********SignInPageTest signInWithInValidEmailIdTest
+=00:17:22.929 [main] INFO  - Entered pwd abcd
+=00:17:23.064 [main] INFO  - click on [[ChromeDriver: chrome on windows (28c4ad530c806745cef1956328864b99)] -> xpath: //input[@id='continue']]
+=00:17:23.113 [main] INFO  - **********Test Passed********SignInPageTest signInWithInValidEmailIdTest
+=00:17:23.396 [main] INFO  - Closing Execution on Browser=> CHROME
+=00:17:23.428 [main] INFO  - Started Execution for Test Name=> Amazon_RegistrationPage_Sanity_Test
+=00:17:24.378 [main] INFO  - Started Execution on Browser=> CHROME
+=00:17:32.704 [main] INFO  - *********Starting Test********RegistrationPageTest createBusinessAccountTest
+=00:17:32.710 [main] INFO  - **********Test Started********RegistrationPageTest createBusinessAccountTest
+=00:17:32.851 [main] INFO  - click on [[ChromeDriver: chrome on windows (4e677f55e3a565cb4cf7d9492fc88c85)] -> xpath: //h1[contains(text(),'Create Account')]]
+=00:17:32.858 [main] INFO  - **********Test Passed********RegistrationPageTest createBusinessAccountTest
+=00:17:33.459 [main] INFO  - Closing Execution on Browser=> CHROME
+=00:17:34.415 [main] INFO  - Started Execution on Browser=> CHROME
+=00:17:42.820 [main] INFO  - *********Starting Test********RegistrationPageTest isLogoPresent
+=00:17:42.820 [main] INFO  - **********Test Started********RegistrationPageTest isLogoPresent
+=00:17:42.872 [main] INFO  - **********Test Passed********RegistrationPageTest isLogoPresent
+=00:17:43.324 [main] INFO  - Closing Execution on Browser=> CHROME
+=00:19:09.166 [main] INFO  - Started Execution for Test Suite=> Amazon_Sanity_Suite with tag => sanity
+=00:19:09.438 [main] INFO  - Started Execution for Test Name=> Amazon_SignInPage_Sanity_Test
+=00:19:10.813 [main] INFO  - Started Execution on Browser=> CHROME
+=00:19:14.479 [main] INFO  - *********Starting Test********SignInPageTest isLogoPresent
+=00:19:14.498 [main] INFO  - **********Test Started********SignInPageTest isLogoPresent
+=00:19:14.562 [main] INFO  - **********Test Passed********SignInPageTest isLogoPresent
+=00:19:14.798 [main] INFO  - Closing Execution on Browser=> CHROME
+=00:19:15.789 [main] INFO  - Started Execution on Browser=> CHROME
+=00:19:19.411 [main] INFO  - *********Starting Test********SignInPageTest pageTitleTest
+=00:19:19.414 [main] INFO  - **********Test Started********SignInPageTest pageTitleTest
+=00:19:19.427 [main] INFO  - **********Test Passed********SignInPageTest pageTitleTest
+=00:19:20.181 [main] INFO  - Closing Execution on Browser=> CHROME
+=00:19:21.142 [main] INFO  - Started Execution on Browser=> CHROME
+=00:19:25.202 [main] INFO  - *********Starting Test********SignInPageTest signInWithInValidEmailIdTest
+=00:19:25.203 [main] INFO  - **********Test Started********SignInPageTest signInWithInValidEmailIdTest
+=00:19:25.391 [main] INFO  - Entered pwd abcd
+=00:19:25.515 [main] INFO  - click on [[ChromeDriver: chrome on windows (00c8a85b2f6fe2190436e9402e605617)] -> xpath: //input[@id='continue']]
+=00:19:25.563 [main] INFO  - **********Test Passed********SignInPageTest signInWithInValidEmailIdTest
+=00:19:25.882 [main] INFO  - Closing Execution on Browser=> CHROME
+=00:19:25.910 [main] INFO  - Started Execution for Test Name=> Amazon_RegistrationPage_Sanity_Test
+=00:19:26.909 [main] INFO  - Started Execution on Browser=> CHROME
+=00:19:35.247 [main] INFO  - *********Starting Test********RegistrationPageTest createBusinessAccountTest
+=00:19:35.248 [main] INFO  - **********Test Started********RegistrationPageTest createBusinessAccountTest
+=00:19:35.391 [main] INFO  - click on [[ChromeDriver: chrome on windows (45c992d6b87a2390ad0580a097e5759f)] -> xpath: //h1[contains(text(),'Create Account')]]
+=00:19:35.405 [main] INFO  - **********Test Passed********RegistrationPageTest createBusinessAccountTest
+=00:19:35.689 [main] INFO  - Closing Execution on Browser=> CHROME
+=00:19:36.644 [main] INFO  - Started Execution on Browser=> CHROME
+=00:19:44.737 [main] INFO  - *********Starting Test********RegistrationPageTest isLogoPresent
+=00:19:44.738 [main] INFO  - **********Test Started********RegistrationPageTest isLogoPresent
+=00:19:44.783 [main] INFO  - **********Test Passed********RegistrationPageTest isLogoPresent
+=00:19:45.077 [main] INFO  - Closing Execution on Browser=> CHROME
+=00:41:12.857 [main] INFO  - Started Execution for Test Suite=> Amazon_Sanity_Suite with tag => sanity
+=00:41:13.076 [main] INFO  - Started Execution for Test Name=> Amazon_SignInPage_Sanity_Test
+=00:41:15.110 [main] INFO  - Started Execution on Browser=> CHROME
+=00:41:19.140 [main] INFO  - *********Starting Test********SignInPageTest isLogoPresent
+=00:41:19.157 [main] INFO  - **********Test Started********SignInPageTest isLogoPresent
+=00:41:19.222 [main] INFO  - **********Test Passed********SignInPageTest isLogoPresent
+=00:41:19.792 [main] INFO  - Closing Execution on Browser=> CHROME
+=00:41:20.762 [main] INFO  - Started Execution on Browser=> CHROME
+=00:41:24.350 [main] INFO  - *********Starting Test********SignInPageTest pageTitleTest
+=00:41:24.352 [main] INFO  - **********Test Started********SignInPageTest pageTitleTest
+=00:41:24.386 [main] INFO  - **********Test Passed********SignInPageTest pageTitleTest
+=00:41:24.838 [main] INFO  - Closing Execution on Browser=> CHROME
+=00:41:25.858 [main] INFO  - Started Execution on Browser=> CHROME
+=00:41:29.433 [main] INFO  - *********Starting Test********SignInPageTest signInWithInValidEmailIdTest
+=00:41:29.434 [main] INFO  - **********Test Started********SignInPageTest signInWithInValidEmailIdTest
+=00:41:29.564 [main] INFO  - Entered pwd abcd
+=00:41:29.711 [main] INFO  - click on [[ChromeDriver: chrome on windows (9aa908e45037b69a5866c0b1d05f5053)] -> xpath: //input[@id='continue']]
+=00:41:29.758 [main] INFO  - **********Test Passed********SignInPageTest signInWithInValidEmailIdTest
+=00:41:30.292 [main] INFO  - Closing Execution on Browser=> CHROME
+=00:41:30.340 [main] INFO  - Started Execution for Test Name=> Amazon_RegistrationPage_Sanity_Test
+=00:41:31.445 [main] INFO  - Started Execution on Browser=> CHROME
+=00:41:39.614 [main] INFO  - *********Starting Test********RegistrationPageTest createBusinessAccountTest
+=00:41:39.614 [main] INFO  - **********Test Started********RegistrationPageTest createBusinessAccountTest
+=00:41:39.789 [main] INFO  - click on [[ChromeDriver: chrome on windows (367bca383aca7f585b92b20480b36628)] -> xpath: //h1[contains(text(),'Create Account')]]
+=00:41:39.799 [main] INFO  - **********Test Passed********RegistrationPageTest createBusinessAccountTest
+=00:41:40.292 [main] INFO  - Closing Execution on Browser=> CHROME
+=00:41:41.357 [main] INFO  - Started Execution on Browser=> CHROME
+=00:41:49.723 [main] INFO  - *********Starting Test********RegistrationPageTest isLogoPresent
+=00:41:49.723 [main] INFO  - **********Test Started********RegistrationPageTest isLogoPresent
+=00:41:49.781 [main] INFO  - **********Test Passed********RegistrationPageTest isLogoPresent
+=00:41:50.282 [main] INFO  - Closing Execution on Browser=> CHROME
+=17:43:49.815 [main] INFO  - Started Execution for Test Suite=> Default suite with tag => 
+=17:43:50.110 [main] INFO  - Started Execution for Test Name=> Default test
+=17:43:52.654 [main] INFO  - Started Execution on Browser=> CHROME
+=17:43:58.112 [main] INFO  - Started Execution on Browser=> CHROME
+=17:44:02.441 [main] INFO  - Started Execution on Browser=> CHROME
+=17:45:05.431 [main] INFO  - Started Execution on Browser=> CHROME
+=17:45:10.299 [main] INFO  - Started Execution on Browser=> CHROME
+=22:09:46.992 [main] INFO  - Started Execution for Test Suite=> AmazonRegressionSuite with tag => regression
+=22:09:47.321 [main] INFO  - Started Execution for Test Name=> Amazon_SignInPageRegressionTest
+=22:09:50.062 [main] INFO  - Started Execution on Browser=> CHROME
+=22:09:53.364 [main] INFO  - *********Starting Test********SignInPageTest backAndForthScenarioTest
+=22:09:53.384 [main] INFO  - **********Test Started********SignInPageTest backAndForthScenarioTest
+=22:09:55.390 [main] INFO  - **********Test Passed********SignInPageTest backAndForthScenarioTest
+=22:09:55.998 [main] INFO  - Closing Execution on Browser=> CHROME
+=22:09:57.413 [main] INFO  - Started Execution on Browser=> CHROME
+=22:10:59.217 [main] INFO  - *********Starting Test********SignInPageTest fieldsOnThePageTest
+=22:10:59.217 [main] INFO  - **********Test Started********SignInPageTest fieldsOnThePageTest
+=22:10:59.217 [main] INFO  - **********Test Skipped********SignInPageTest fieldsOnThePageTest
+=22:10:59.664 [main] INFO  - Closing Execution on Browser=> CHROME
+=22:11:01.174 [main] INFO  - Started Execution on Browser=> CHROME
+=22:11:03.676 [main] INFO  - *********Starting Test********SignInPageTest signInWithInValidEmailIdTest
+=22:11:03.681 [main] INFO  - **********Test Started********SignInPageTest signInWithInValidEmailIdTest
+=22:11:03.681 [main] INFO  - **********Test Skipped********SignInPageTest signInWithInValidEmailIdTest
+=22:11:04.104 [main] INFO  - Closing Execution on Browser=> CHROME
+=22:11:04.246 [main] INFO  - Started Execution for Test Name=> Amazon_RegistrationPageRegressionTest
+=22:11:05.692 [main] INFO  - Started Execution on Browser=> CHROME
+=22:11:13.141 [main] INFO  - *********Starting Test********RegistrationPageTest fieldsOnThePageTest
+=22:11:13.148 [main] INFO  - **********Test Started********RegistrationPageTest fieldsOnThePageTest
+=22:11:14.176 [main] INFO  - **********Test Passed********RegistrationPageTest fieldsOnThePageTest
+=22:11:14.571 [main] INFO  - Closing Execution on Browser=> CHROME
+=22:11:16.077 [main] INFO  - Started Execution on Browser=> CHROME
+=22:11:24.567 [main] INFO  - *********Starting Test********RegistrationPageTest pageTitleTest
+=22:11:24.568 [main] INFO  - **********Test Started********RegistrationPageTest pageTitleTest
+=22:11:24.590 [main] INFO  - **********Test Passed********RegistrationPageTest pageTitleTest
+=22:11:24.973 [main] INFO  - Closing Execution on Browser=> CHROME
+=22:11:26.424 [main] INFO  - Started Execution on Browser=> CHROME
+=22:12:27.126 [main] INFO  - *********Starting Test********RegistrationPageTest signInLinkTest
+=22:12:27.142 [main] INFO  - **********Test Started********RegistrationPageTest signInLinkTest
+=22:12:27.142 [main] INFO  - **********Test Skipped********RegistrationPageTest signInLinkTest
+=22:12:27.500 [main] INFO  - Closing Execution on Browser=> CHROME
+=02:39:52.665 [main] INFO  - Started Execution for Test Suite=> AmazonSanitySuite with tag => sanity
+=02:39:52.915 [main] INFO  - Started Execution for Test Name=> Amazon_SignInPageSanityTest
+=02:39:56.083 [main] INFO  - Started Execution on Browser=> CHROME
+=02:40:00.370 [main] INFO  - *********Starting Test********SignInPageTest isLogoPresent
+=02:40:00.388 [main] INFO  - **********Test Started********SignInPageTest isLogoPresent
+=02:41:00.449 [main] INFO  - **********Test Failed********SignInPageTest isLogoPresent
+=02:41:01.847 [main] INFO  - Started Execution on Browser=> CHROME
+=02:41:04.246 [main] INFO  - *********Starting Test********SignInPageTest pageTitleTest
+=02:41:04.249 [main] INFO  - **********Test Started********SignInPageTest pageTitleTest
+=02:41:04.267 [main] INFO  - **********Test Failed********SignInPageTest pageTitleTest
+=02:41:05.723 [main] INFO  - Started Execution on Browser=> CHROME
+=02:41:08.639 [main] INFO  - *********Starting Test********SignInPageTest signInWithInValidEmailIdTest
+=02:41:08.644 [main] INFO  - **********Test Started********SignInPageTest signInWithInValidEmailIdTest
+=02:41:08.821 [main] INFO  - Entered pwd abcd
+=02:41:09.212 [main] INFO  - click on [[ChromeDriver: chrome on windows (9014b445dd84d641ae75d6500a760e12)] -> xpath: //input[@id='continue']]
+=02:42:09.691 [main] INFO  - **********Test Failed********SignInPageTest signInWithInValidEmailIdTest
+=02:42:10.047 [main] INFO  - Started Execution for Test Name=> Amazon_RegistrationPageSanityTest
+=02:42:11.372 [main] INFO  - Started Execution on Browser=> CHROME
+=02:42:19.525 [main] INFO  - *********Starting Test********RegistrationPageTest createBusinessAccountTest
+=02:42:19.526 [main] INFO  - **********Test Started********RegistrationPageTest createBusinessAccountTest
+=02:42:19.668 [main] INFO  - click on [[ChromeDriver: chrome on windows (865c34064e5ff68f1d6c25d3056699a9)] -> xpath: //h1[contains(text(),'Create Account')]]
+=02:42:19.683 [main] INFO  - **********Test Failed********RegistrationPageTest createBusinessAccountTest
+=02:42:21.469 [main] INFO  - Started Execution on Browser=> CHROME
+=02:43:23.039 [main] INFO  - *********Starting Test********RegistrationPageTest isLogoPresent
+=02:43:23.039 [main] INFO  - **********Test Started********RegistrationPageTest isLogoPresent
+=02:43:23.039 [main] INFO  - **********Test Skipped********RegistrationPageTest isLogoPresent
+=02:43:23.300 [main] INFO  - Closing Execution on Browser=> CHROME
+=11:46:21.415 [main] INFO  - Started Execution for Test Suite=> AmazonSanitySuite with tag => sanity
+=11:46:22.113 [main] INFO  - Started Execution for Test Name=> Amazon_SignInPageSanityTest
+=11:46:28.403 [main] INFO  - Started Execution on Browser=> FIREFOX
+=11:47:32.566 [main] INFO  - *********Starting Test********SignInPageTest isLogoPresent
+=11:47:32.585 [main] INFO  - **********Test Started********SignInPageTest isLogoPresent
+=11:47:32.599 [main] INFO  - **********Test Skipped********SignInPageTest isLogoPresent
+=11:47:34.609 [main] INFO  - Closing Execution on Browser=> FIREFOX
+=11:47:39.183 [main] INFO  - Started Execution on Browser=> FIREFOX
+=11:47:45.028 [main] INFO  - *********Starting Test********SignInPageTest pageTitleTest
+=11:47:45.031 [main] INFO  - **********Test Started********SignInPageTest pageTitleTest
+=11:47:45.031 [main] INFO  - **********Test Skipped********SignInPageTest pageTitleTest
+=11:47:46.951 [main] INFO  - Closing Execution on Browser=> FIREFOX
+=11:47:51.266 [main] INFO  - Started Execution on Browser=> FIREFOX
+=11:47:57.386 [main] INFO  - *********Starting Test********SignInPageTest signInWithInValidEmailIdTest
+=11:47:57.387 [main] INFO  - **********Test Started********SignInPageTest signInWithInValidEmailIdTest
+=11:47:57.389 [main] INFO  - **********Test Skipped********SignInPageTest signInWithInValidEmailIdTest
+=11:48:00.084 [main] INFO  - Closing Execution on Browser=> FIREFOX
+=11:48:00.214 [main] INFO  - Started Execution for Test Name=> Amazon_RegistrationPageSanityTest
+=11:48:04.311 [main] INFO  - Started Execution on Browser=> FIREFOX
+=11:48:13.962 [main] INFO  - *********Starting Test********RegistrationPageTest createBusinessAccountTest
+=11:48:13.963 [main] INFO  - **********Test Started********RegistrationPageTest createBusinessAccountTest
+=11:48:14.620 [main] INFO  - click on [[FirefoxDriver: firefox on windows (8393f0b1-9850-4809-b2ff-6495e23903f6)] -> xpath: //h1[contains(text(),'Create Account')]]
+=11:48:14.633 [main] INFO  - **********Test Failed********RegistrationPageTest createBusinessAccountTest
+=11:48:19.953 [main] INFO  - Started Execution on Browser=> FIREFOX
+=11:49:30.451 [main] INFO  - *********Starting Test********RegistrationPageTest isLogoPresent
+=11:49:30.451 [main] INFO  - **********Test Started********RegistrationPageTest isLogoPresent
+=11:49:30.451 [main] INFO  - **********Test Skipped********RegistrationPageTest isLogoPresent
+=11:49:32.766 [main] INFO  - Closing Execution on Browser=> FIREFOX

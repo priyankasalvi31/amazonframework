@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AmazonRegressionSuite">
+<groups>
+<run>
+<include name="regression"></include>
+</run>
+</groups>
+<listeners>
+<listener class-name="com.amazon.customListeners.MyListener"></listener>
+</listeners>
+	<test name="Amazon_SignInPageRegressionTest">
+		<classes>
+			<class name="com.amazon.tests.SignInPageTest" />
+		</classes>
+	</test>
+	<test name="Amazon_RegistrationPageRegressionTest">
+		<classes>
+			<class name="com.amazon.tests.RegistrationPageTest" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->
