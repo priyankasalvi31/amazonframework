@@ -1,11 +1,11 @@
 @echo off
 SETLOCAL ENABLEDELAYEDEXPANSION
 
-cd /c "C:\Users\Priyanka\eclipse-workspace\amazonframework"
+
 
 SET configFile="src\test\resources\configurations\config.properties"
 
-SET pomFile="C:\Users\Priyanka\eclipse-workspace\amazonframework\pom.xml"
+SET pomFile="pom.xml"
 
 REM Replace values in config.properties
 (for /F "tokens=1,* delims==" %%A in ('type "!configFile!"') do (
