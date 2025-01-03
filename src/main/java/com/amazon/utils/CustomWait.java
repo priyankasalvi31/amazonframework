@@ -22,12 +22,7 @@ public class CustomWait {
 		wait =new WebDriverWait(driver, duration);
 		
 	}
-	
-//	public static void explicitlyWait(WebElement element) {
-//		WebDriverWait wait=new WebDriverWait(driver,Constants.EXPLICITWAIT);
-//		wait.until(ExpectedConditions.visibilityOf(element));
-//	}
-	
+
 
 	public void waitForVisibilityOfElement(WebElement element)
 	{

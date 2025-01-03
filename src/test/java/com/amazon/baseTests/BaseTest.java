@@ -53,7 +53,11 @@ public class BaseTest {
 	
 	@BeforeSuite(alwaysRun = true)
 	public void setUpSuite(ITestContext context)
-	{
+	{	configReader = new ConfigReader();  	
+		if(configReader.get_Parallel_Mode().equalsIgnoreCase("Yes"))
+		{
+			context.getSuite().getXmlSuite().setThreadCount(Integer.parseInt(configReader.get_Max_Parallel_Test()));
+		}
 		String suiteName =context.getSuite().getName();
 		String groupsList[] = context.getIncludedGroups();
 		String includedGroups =String.join(",", groupsList);

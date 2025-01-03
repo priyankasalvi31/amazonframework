@@ -8,21 +8,24 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import com.amazon.baseTests.BaseTest;
+import com.amazon.pages.HomePage;
+import com.amazon.pages.RegistrationPage;
 
 public class RegistrationPageTest extends BaseTest {
 	@BeforeMethod(alwaysRun = true)
-	public void setUpPage() throws InterruptedException
+	public void setUpPage() throws InterruptedException, IOException
 	{
 		//open the registration page from the HomePage
-		
+	
 		homePage.openRegistrationPage();
 		//signInPage.setUpCorrectRegistrationPage();
 	}
 	
 	@Test(groups= {"sanity"})
-	public void isLogoPresent()
+	public void isLogoPresent() throws IOException
 	{
 		try {
+
 		Assert.assertTrue(registrationPage.verifyLogo(),"ERROR- logo is not present on the page");}
 		catch(AssertionError ae)
 		{

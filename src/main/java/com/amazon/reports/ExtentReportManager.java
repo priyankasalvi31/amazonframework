@@ -1,5 +1,6 @@
 package com.amazon.reports;
 
+import com.amazon.utils.ConfigReader;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
@@ -9,25 +10,26 @@ public class ExtentReportManager {
  private static ExtentTest extentTest;
  private static ExtentSparkReporter sparkReporter;
  private static ThreadLocal<ExtentTest> test = new ThreadLocal<ExtentTest>();
+
 	public static void setUpExtentReport()
-	{
+	{	 ConfigReader configReader = new ConfigReader();
 		 sparkReporter = new ExtentSparkReporter("./extentreports/extent.html");
 		 extent = new ExtentReports();
 		 extent.attachReporter(sparkReporter);
 		 sparkReporter.config().setDocumentTitle("Automation Report");
 		 sparkReporter.config().setReportName("Amazon Automation report");
-		 extent.setSystemInfo("Browser", "chrome");
+		 extent.setSystemInfo("Browser", configReader.getBrowser());
 		 extent.setSystemInfo("OS", System.getProperty("os.name"));
 		 
 		 
 		 }
 	public static void createTest(String testName, String groups, String className,String xmlTestName,String author)
-	{
+	{	ConfigReader configReader = new ConfigReader();
 		 extentTest = extent
 										.createTest("<b>"+testName+"</b>")
 										.assignCategory(groups,className,xmlTestName)
 										.assignAuthor(author)
-										.assignDevice("Chrome");
+										.assignDevice(configReader.getBrowser());
 		 
 		 test.set(extentTest);
 	}

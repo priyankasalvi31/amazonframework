@@ -573,3 +573,58 @@ Session ID: 1dea1b20d68f3f7a914e76911a330e0d
 =11:49:30.451 [main] INFO  - **********Test Started********RegistrationPageTest isLogoPresent
 =11:49:30.451 [main] INFO  - **********Test Skipped********RegistrationPageTest isLogoPresent
 =11:49:32.766 [main] INFO  - Closing Execution on Browser=> FIREFOX
+=18:08:02.527 [main] INFO  - Started Execution for Test Suite=> AmazonRegressionSuite with tag => regression
+=18:08:02.892 [main] INFO  - Started Execution for Test Name=> Amazon_SignInPageRegressionTest
+=18:08:09.059 [main] INFO  - Started Execution on Browser=> FIREFOX
+=18:08:15.866 [main] INFO  - *********Starting Test********SignInPageTest backAndForthScenarioTest
+=18:08:15.906 [main] INFO  - **********Test Started********SignInPageTest backAndForthScenarioTest
+=18:08:18.840 [main] INFO  - **********Test Failed********SignInPageTest backAndForthScenarioTest
+=18:08:23.471 [main] INFO  - Started Execution on Browser=> FIREFOX
+=18:08:29.474 [main] INFO  - *********Starting Test********SignInPageTest fieldsOnThePageTest
+=18:08:29.476 [main] INFO  - **********Test Started********SignInPageTest fieldsOnThePageTest
+=18:08:29.485 [main] INFO  - **********Test Failed********SignInPageTest fieldsOnThePageTest
+=18:08:35.726 [main] INFO  - Started Execution on Browser=> FIREFOX
+=18:08:45.067 [main] INFO  - *********Starting Test********SignInPageTest signInWithInValidEmailIdTest
+=18:08:45.070 [main] INFO  - **********Test Started********SignInPageTest signInWithInValidEmailIdTest
+=18:08:45.228 [main] INFO  - Entered pwd abcd
+=18:08:45.636 [main] INFO  - click on [[FirefoxDriver: firefox on windows (5a051498-3df4-4b6a-b7dc-1bd1f87a1778)] -> xpath: //input[@id='continue']]
+=18:09:45.679 [main] INFO  - **********Test Failed********SignInPageTest signInWithInValidEmailIdTest
+=18:09:45.867 [main] INFO  - Started Execution for Test Name=> Amazon_RegistrationPageRegressionTest
+=18:09:50.655 [main] INFO  - Started Execution on Browser=> FIREFOX
+=18:10:00.445 [main] INFO  - *********Starting Test********RegistrationPageTest fieldsOnThePageTest
+=18:10:00.474 [main] INFO  - **********Test Started********RegistrationPageTest fieldsOnThePageTest
+=18:10:04.445 [main] INFO  - **********Test Failed********RegistrationPageTest fieldsOnThePageTest
+=18:10:08.374 [main] INFO  - Started Execution on Browser=> FIREFOX
+=18:10:18.029 [main] INFO  - *********Starting Test********RegistrationPageTest pageTitleTest
+=18:10:18.032 [main] INFO  - **********Test Started********RegistrationPageTest pageTitleTest
+=18:10:18.039 [main] INFO  - **********Test Failed********RegistrationPageTest pageTitleTest
+=18:10:23.758 [main] INFO  - Started Execution on Browser=> FIREFOX
+=18:10:34.817 [main] INFO  - *********Starting Test********RegistrationPageTest signInLinkTest
+=18:10:34.817 [main] INFO  - **********Test Started********RegistrationPageTest signInLinkTest
+=18:10:34.820 [main] INFO  - **********Test Failed********RegistrationPageTest signInLinkTest
+=18:28:25.282 [main] INFO  - Started Execution for Test Suite=> AmazonSanitySuite with tag => sanity
+=18:28:25.800 [main] INFO  - Started Execution for Test Name=> Amazon_SignInPageSanityTest
+=18:28:34.811 [main] INFO  - Started Execution on Browser=> FIREFOX
+=18:28:40.079 [main] INFO  - *********Starting Test********SignInPageTest isLogoPresent
+=18:28:40.096 [main] INFO  - **********Test Started********SignInPageTest isLogoPresent
+=18:29:40.541 [main] INFO  - **********Test Failed********SignInPageTest isLogoPresent
+=18:29:43.904 [main] INFO  - Started Execution on Browser=> FIREFOX
+=18:29:49.951 [main] INFO  - *********Starting Test********SignInPageTest pageTitleTest
+=18:29:49.953 [main] INFO  - **********Test Started********SignInPageTest pageTitleTest
+=18:29:49.965 [main] INFO  - **********Test Failed********SignInPageTest pageTitleTest
+=18:29:53.594 [main] INFO  - Started Execution on Browser=> FIREFOX
+=18:29:58.240 [main] INFO  - *********Starting Test********SignInPageTest signInWithInValidEmailIdTest
+=18:29:58.241 [main] INFO  - **********Test Started********SignInPageTest signInWithInValidEmailIdTest
+=18:29:58.336 [main] INFO  - Entered pwd abcd
+=18:29:58.680 [main] INFO  - click on [[FirefoxDriver: firefox on windows (0121ea15-feb3-46a9-af35-dd93f1c2f156)] -> xpath: //input[@id='continue']]
+=18:30:59.043 [main] INFO  - **********Test Failed********SignInPageTest signInWithInValidEmailIdTest
+=18:30:59.797 [main] INFO  - Started Execution for Test Name=> Amazon_RegistrationPageSanityTest
+=18:31:03.552 [main] INFO  - Started Execution on Browser=> FIREFOX
+=18:31:14.045 [main] INFO  - *********Starting Test********RegistrationPageTest createBusinessAccountTest
+=18:31:14.046 [main] INFO  - **********Test Started********RegistrationPageTest createBusinessAccountTest
+=18:31:15.445 [main] INFO  - click on [[FirefoxDriver: firefox on windows (c7c305c6-9a42-414e-9357-845b3bddab94)] -> xpath: //h1[contains(text(),'Create Account')]]
+=18:31:15.462 [main] INFO  - **********Test Failed********RegistrationPageTest createBusinessAccountTest
+=18:31:18.651 [main] INFO  - Started Execution on Browser=> FIREFOX
+=18:31:28.366 [main] INFO  - *********Starting Test********RegistrationPageTest isLogoPresent
+=18:31:28.374 [main] INFO  - **********Test Started********RegistrationPageTest isLogoPresent
+=18:32:28.645 [main] INFO  - **********Test Failed********RegistrationPageTest isLogoPresent

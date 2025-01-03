@@ -58,4 +58,14 @@ public class ConfigReader {
 				
 		
 	}
+	
+	public String get_Parallel_Mode()
+	{
+		return prop.getProperty("PARALLEL_MODE");
+	}
+	
+	public String get_Max_Parallel_Test()
+	{
+		return prop.getProperty("MAX_PARALLEL_TESTS");
+	}
 }
